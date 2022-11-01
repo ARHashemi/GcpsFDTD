@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- ARH FDTD Simulation Design File  -->
+<Project title="myTest">
+  <Structure unit="m" freeSpace="0">
+    <Dimensions Lx="3400.0E-9" Ly="3400.0E-9" Lz="2400.0E-9" dx="1.0E-9" dy="1.0E-9" dz="1.0E-9"/>
+    <Shape shapeIndex="0" materialIndex="1" type="cuboid" theta="0" phi="0" psi="0" x0="200.0E-9" y0="200.0E-9" z0="750.0E-9" a="3000.0E-9" b="3000.0E-9" c="50.0E-9"/>
+    <Shape shapeIndex="1" materialIndex="2" type="cuboid" theta="0" phi="0" psi="0" x0="200.0E-9" y0="200.0E-9" z0="700.0E-9" a="3000.0E-9" b="3000.0E-9" c="50.0E-9"/>
+    <Shape shapeIndex="2" materialIndex="5" type="cuboid" theta="0" phi="0" psi="0" x0="200.0E-9" y0="200.0E-9" z0="200.0E-9" a="3000.0E-9" b="3000.0E-9" c="500.0E-9"/>
+  </Structure>
+  <Materials>
+    <Material name="free" materialIndex="0" isMetal="0" isFluorescent="0" epsR="1" muR="1" sig="0" sigM="0"/>
+    <Material name="Glass" materialIndex="1" isMetal="0" isFluorescent="0" epsR="2.55456289" muR="1" sig="0" sigM="0"/>
+    <Material name="Silver" materialIndex="2" isMetal="1" isFluorescent="0" epsR="1" muR="1" sig="0" sigM="0"/>
+    <Material name="user" materialIndex="3" isMetal="0" isFluorescent="0" epsR="4" muR="1" sig="0" sigM="0"/>
+    <Material name="free" materialIndex="4" isMetal="0" isFluorescent="0" epsR="1" muR="1" sig="0" sigM="0"/>
+    <Material name="Fluorescent" materialIndex="5" isMetal="0" isFluorescent="1" epsR="2.25" muR="1" sig="0" sigM="0"/>
+  </Materials>
+</Project>
